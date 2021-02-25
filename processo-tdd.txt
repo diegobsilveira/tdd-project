@@ -1,0 +1,13 @@
+Considerando um esquema mais simples de TDD, onde utilizamos Testes de unidade:
+    - Primeiramente, escrevemos um testes para uma unidade (funcionalidade) e o rodamos. Obviamente, o teste falha logo de cara.
+    - Assim, escrevemos código mínimo para que o teste passe
+    - Quando o teste passa, verificamos se podemos melhorar o código por refatoração
+        - Se sim, escrevemos um código mínimo e refatorado até que ele passe
+
+Agora, considerando o TDD em um contexto acrescido dos Testes Funcionais temos um novo esquema (mais completo):
+    - Escrevemos um Teste Funcional e o rodamos. Como na versão simplificada, ele não passa logo de cara
+    - Como não passa, agora passamos pelo esquema acima para os testes de unidade
+        - Passando os testes de unidade necessários, voltamos e verificamos se agora o teste funcional passa
+    - De novo, vemos se precisamos fazer alguma refatoração em algum ponto da aplicação
+        - Se não, concluímos um ciclo e podemos escrever o próximo teste funcional
+        - Se sim, repetimos o esquema dos testes de unidade
