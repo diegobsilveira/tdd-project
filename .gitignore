@@ -7,5 +7,6 @@ __pycache__
 superlists/settings.py
 manage.py
 functional_tests/__init__.py
+lists/tests/__init__.py
 .vscode/
 lists/migrations/
