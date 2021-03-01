@@ -1,7 +1,11 @@
 db.sqlite3
 geckodriver.log
+geckodriver.exe
 virtualenv
 __pycache__
 *.pyc
 superlists/settings.py
+manage.py
+functional_tests/__init__.py
 .vscode/
+lists/migrations/
